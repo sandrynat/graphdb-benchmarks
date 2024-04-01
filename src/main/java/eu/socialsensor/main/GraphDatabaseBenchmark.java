@@ -54,6 +54,7 @@ public class GraphDatabaseBenchmark
         }
         catch (ConfigurationException e)
         {
+
             throw new IllegalArgumentException(String.format(
                 "Unable to load properties file from classpath because %s", e.getMessage()));
         }

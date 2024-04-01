@@ -9,6 +9,7 @@ public class GraphDatabaseBenchmarkTest
     public void testGraphDatabaseBenchmark()
     {
         GraphDatabaseBenchmark bench = new GraphDatabaseBenchmark(null /* inputPath */);
+        // System.out.println(bench.inputPath);
         try
         {
             bench.run();
